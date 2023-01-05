@@ -21,6 +21,16 @@
       "value": "code",
       "isCompleted": false,
       "id": 5
+    },
+    {
+      "value": "eat",
+      "isCompleted": false,
+      "id": 6
+    },
+    {
+      "value": "sleep",
+      "isCompleted": false,
+      "id": 7
     }
   ]
 }
