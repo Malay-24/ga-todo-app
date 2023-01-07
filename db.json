@@ -1,21 +1,7 @@
 {
   "todos": [
     {
-<<<<<<< HEAD
-      "id": 1,
-      "value": "eat"
-    },
-    {
-      "id": 2,
-      "value": "eat"
-    },
-    {
-      "id": 3,
-      "value": "eat"
-    },
-    {
-      "value": "hi",
-=======
+    
       "value": "A",
       "isCompleted": false,
       "id": 1
@@ -32,35 +18,12 @@
     },
     {
       "value": "D",
->>>>>>> 4e6f9370bd051c959bb88b8e9d084c858c8c6ac9
+
       "isCompleted": false,
       "id": 4
-    },
-    {
-<<<<<<< HEAD
-      "value": "code",
-      "isCompleted": false,
-      "id": 5
-    },
-    {
-      "value": "eat",
-      "isCompleted": false,
-      "id": 6
-    },
-    {
-      "value": "sleep",
-      "isCompleted": false,
-      "id": 7
-    },
-    {
-      "value": "hello",
-      "isCompleted": false,
-      "id": 8
-=======
-      "value": "E",
-      "isCompleted": false,
-      "id": 5
->>>>>>> 4e6f9370bd051c959bb88b8e9d084c858c8c6ac9
     }
+    
+    
+   
   ]
 }

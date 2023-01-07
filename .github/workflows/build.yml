@@ -1,39 +1,14 @@
-<<<<<<< HEAD
+
 name: Github Action 2
-=======
-name: Github Action No. 2
->>>>>>> 4e6f9370bd051c959bb88b8e9d084c858c8c6ac9
 
 on:
   push:
     branches: ["main"]
-<<<<<<< HEAD
-=======
-  # Allos us to run worflow from UI
-  workflow_dispatch:
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
->>>>>>> 4e6f9370bd051c959bb88b8e9d084c858c8c6ac9
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-<<<<<<< HEAD
-      -name: Checkout
-       uses: actions/checkout@v3 
-      -name: Setup Node
-       uses : actions/setup-node@v3
-       with:
-        node-version: "16" 
-      -name: Install Dependencies
-       run: npm ci  
-      -name: Build Project
-       run: npm run build 
-=======
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Node
@@ -58,4 +33,4 @@ jobs:
       - name: Deploy to Github pages
         id: deployment
         uses: actions/deploy-pages@v1
->>>>>>> 4e6f9370bd051c959bb88b8e9d084c858c8c6ac9
+
